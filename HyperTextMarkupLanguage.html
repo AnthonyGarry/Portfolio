@@ -1,0 +1,123 @@
+<!-- Chercher ou créer images libre de droit pour FTL ou Stargate pour l'accueil -->
+<!-- Faire un bouton pour le mode couleur Normal/Inversé ? -->
+<!-- Temps dans le menu latéral + Temps passé sur le site en bas à droite du menu ? -->
+<!-- Trouver comment faire texte qui bouge pour accueil, probablement animation ? -->
+<!-- Ajouter une transition à la FTL pour laisser le temps aux images de charger -->
+ <!-- AI art ? https://www.piclumen.com/tutorial/are-ai-generated-images-copyrighted/ -->
+
+<!--
+2024-09-16 12:17:30 GMT+1
+Écrit par : Anthony Garry
+Utilisera : Github Pages
+-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Garry Portfolio</title>
+    <link rel="stylesheet" href="CascadingStyleSheets.css">
+    <script src="Javascript.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- Google Fonts et Analytiques -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Contenu du menu haut de page -->
+    <div id="MenuHaut">
+        <div id="grid-one">
+            <!-- Bouton du menu latéral (En haut à gauche) -->
+            <nav class="topnav">
+                <a href="#" onclick="openNav()">
+                    <svg width="30" height="30" id="icoOpen"> <!-- Crée une zone d'image svg -->
+                        <!-- Dessine l'image svg en disant à l'ordinateur quels pixels colorer dans la zone -->
+                        <path d="M0,5 30,5" stroke="#090302" stroke-width="5"/>
+                        <path d="M0,14 30,14" stroke="#090302" stroke-width="5"/>
+                        <path d="M0,23 30,23" stroke="#090302" stroke-width="5"/>
+                    </svg>
+                </a>
+            </nav>
+
+            <p id="Nom">Anthony Garry</p>
+        </div>
+
+        <div id="grid-two">
+            <!-- Faire deuxième page pour ne pas charger 2 pages pour rien -->
+            <a id="Langue" style="text-decoration: none; color: #090302; padding-right: 10px;" href="../English/HyperTextMarkupLanguage.html">Switch to English</a>
+        </div>
+    </div>
+
+    <!-- Contenu du menu latéral -->
+    <div id="sideNavigation" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+        <div class="Profile">
+            <p class="Titre"><a>Anthony GARRY</a></p>
+            <div id="ContactDiv"> <!-- Du plus au moins directe -->
+                <a class="Contact" href=""><box-icon type="solid" name="phone"></box-icon></a> <!-- https://www.w3schools.com/howto/howto_css_tooltip.asp ? -->
+                <a class="Contact" href="mailto:anthonygarrypro@laposte.net"><box-icon type="solid" name="envelope"></box-icon></a>
+                <a class="Contact" href="https://github.com/AnthonyGarry"><box-icon type="logo" name="github"></box-icon></a>
+                <a class="Contact" href=""><box-icon type="logo" name="linkedin"></box-icon></a> <!-- linkedin et github n'existe que sous forme de logo -->
+            </div>
+        </div>
+        <nav>
+            <a href="#Accueil">Accueil</a> <!-- #Accueil va chercher un id="Accueil" dans le code et y aller -->
+            <a href="#APropos">A propos</a>
+            <a href="#Compétences">Compétences</a>
+            <a href="#Parcours">Parcours</a>
+            <a href="#MeContacter">Me contacter</a>
+        </nav>
+    </div>
+
+    <div id="main">
+        <!-- Add all your websites page content here -->
+         <div id="Accueil">
+            <div class="Contenu">
+                <p class="Titre">Bienvenue,</p>
+                <p class="Sous-Titre">Sur mon portfolio</p>
+            </div>
+         </div>
+         <hr>
+
+         <div id="APropos">
+            <div class="Contenu">
+                <p class="Sous-Titre">Je suis..</p>
+                <p>Un étudiant de seconde année du <b>BTS SIO</b> (Services Informatiques aux Organisations) <b>SISR</b> (Solutions d'Infrastructure, Systèmes et Réseaux) de l'Institut d'Informatique Appliqué de Saint-Nazaire.</p>
+                <p>Un homme curieux et perfectionniste avide de lectures fantastiques et de jeux de rôles.</p>
+            </div>
+         </div>
+         <hr>
+
+         <div id="Compétences">
+            <div class="Contenu">
+                <p style="color:white;">Compétences</p>
+            </div>
+         </div>
+         <hr>
+
+         <div id="Parcours">
+            <div class="Contenu">
+                <dl>
+                    <!--<dt>Primaire - École Saint-Joseph</dt>
+                    <dd>YYYY/YYYY</dd>--> <!-- Do we even need this ? Likely not -->
+                    <dt>&#8226; Collège - Collège de Saint-Joseph</dt> <!-- &#8226; = • -->
+                    <dd>YYYY/YYYY - Diplômes? - Stage de 3ème chez IBM</dd>
+                    <dt>&#8226; Lycée - Lycée du Pays de Retz</dt>
+                    <dd>YYYY/YYYY - BAC à Lauréat Général - Options Numérique Science de l'Informatique, Mathématiques et Physique-Chimie</dd>
+                    <dt>&#8226; CFA - Institut d'Informatique Appliqué de Saint-Nazaire</dt>
+                    <dd>2023/2025 - BTS SIO SISR</dd>
+                </dl>
+            </div>
+         </div>
+         <hr>
+
+         <div id="Autres">
+            <div class="Contenu">
+                <p style="color:white;">Trucs de codes fait pour github maybe ? Do we want to link Work & Chill ? Probably not but could be helpfull</p>
+            </div>
+         </div>
+    </div>
+</body>
+</html>
