@@ -22,7 +22,7 @@ body {
     top: 0;
     background-color: white;
     width: 100%;
-    height: 50px;
+    height: 55px;
     display: grid;
     grid-template-columns: repeat(2, 1fr); /* 1fr = 1 fraction, so repeat 2 means there will be 2 fractions */
 }
