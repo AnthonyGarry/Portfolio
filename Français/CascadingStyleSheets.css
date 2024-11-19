@@ -1,0 +1,203 @@
+/* Couleurs avec ordre : https://coolors.co/5a2328-090302-e4d00a-65743a-c8bfc7 */
+/* Exemple : https://coolors.co/visualizer/5a2328-090302-e4d00a-65743a-c8bfc7 */
+
+/* Icones ? https://boxicons.com/usage */
+
+html {
+    background-color: lightgray;
+    font-family: "Alice", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+  }
+
+#MenuHaut {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 1fr = 1 fraction, so repeat 2 means there will be 2 fractions */
+}
+
+#grid-one {
+    grid-column: 1;
+}
+
+#grid-two {
+    grid-column: 2;
+}
+
+#Nom {
+    justify-self: left;
+    padding-left: 10px;
+}
+
+#Langue {
+    display: flex;
+    padding-top: 15px;
+    justify-content: end; /* Main Axis - Horizontal (align-items = Cross Axis - Vertical)*/
+}
+
+#Langue a:hover {
+    color: black;
+}
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%;
+    width: 0; /* Change avec JavaScript */
+    position: fixed;
+    z-index: 1; /* Stay above other elements */
+    top: 0;
+    left: 0;
+    background-color: #5A2328;
+    overflow-x: hidden; /* Disable horizontal scroll bar */
+    padding-top: 60px;
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+    text-wrap: nowrap; /* Empêche le texte de bouger pendant le déroulement du menu */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    transition: 0.3s;
+}
+
+/* When navigation links are moused over: changes their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #C8BFC7;
+}
+
+/* Position and style the close button (top left corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.Profile .Titre a:hover {
+    color: #C8BFC7;
+}
+
+.Titre {
+    font-weight: 600;
+    font-size: 200%;
+}
+
+#ContactDiv {
+    display: flex;
+}
+
+#ContactDiv a {
+    padding: 10px;
+}
+
+.Contact {
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+}
+
+.topnav {
+    width: 65px;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+    background-color: #4CAF50;
+    color: #090302;
+}
+
+/* On screens where height is less than 450px: change style of sidenav (less padding & smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+a svg{
+  transition: all .5s ease;
+}
+
+#ico{
+  display: none;
+}
+
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+/*////////////////////////////////////////////- MAIN -///////////////////////////////////////////////////*/
+/*///////////////////////////////////////////////////////////////////////////////////////////////////////*/
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+    overflow: hidden;
+    padding: 0px;
+    width: 100%; /* Changer par JS navbar pour que le texte wrap */
+}
+
+#Accueil {
+    height: 83vh;
+}
+
+.Contenu {
+    margin-left: 5%;
+}
+
+.Sous-Titre {
+    font-weight: 400;
+    font-size: 150%;
+}
+
+hr {
+    color: #090302;
+}
+
+#APropos {
+    height: 98vh;
+}
+
+#Compétences {
+    height: 98vh;
+}
+
+#Parcours {
+    height: 98vh;
+}
+
+#Autres {
+    height: 98vh;   
+}
