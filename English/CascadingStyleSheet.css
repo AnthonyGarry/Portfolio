@@ -18,6 +18,8 @@ body {
   }
 
 #MenuHaut {
+    position: sticky;
+    top: 0;
     background-color: white;
     width: 100%;
     height: 50px;
@@ -170,7 +172,7 @@ a svg{
 }
 
 #Accueil {
-    height: 70vh;
+    height: 83vh;
 }
 
 .Contenu {
@@ -187,17 +189,17 @@ hr {
 }
 
 #APropos {
-    height: 70vh;
+    height: 83vh;
 }
 
 #Compétences {
-    height: 70vh;
+    height: 83vh;
 }
 
 #Parcours {
-    height: 80vh;
+    height: 83vh;
 }
 
 #Autres {
-    height: 80vh;   
+    height: 83vh;   
 }
