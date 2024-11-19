@@ -41,7 +41,7 @@ body {
 }
 
 @media only screen and (max-width: 400px) {
-    #Nom {
+    .hidden-mobile {
       display: none;
     }
   }
