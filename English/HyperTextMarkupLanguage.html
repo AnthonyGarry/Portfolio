@@ -1,0 +1,110 @@
+<!-- Chercher ou créer images libre de droit pour FTL ou Stargate pour l'accueil -->
+<!-- Faire un bouton pour le mode couleur Normal/Inversé ? -->
+<!-- Temps dans le menu latéral + Temps passé sur le site en bas à droite du menu ? -->
+<!-- Trouver comment faire texte qui bouge pour accueil, probablement animation ? -->
+<!-- Ajouter une transition à la FTL pour laisser le temps aux images de charger -->
+
+<!--
+2024-09-16 12:17:30 GMT+1
+Écrit par : Anthony Garry
+Utilisera : Github Pages
+-->
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anthony Garry Portfolio</title>
+    <link rel="stylesheet" href="CascadingStyleSheets.css">
+    <script src="Javascript.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <!-- Google Fonts et Analytiques -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alice&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Contenu du menu haut de page -->
+    <div id="MenuHaut">
+        <div id="grid-one">
+            <!-- Bouton du menu latéral (En haut à gauche) -->
+            <nav class="topnav">
+                <a href="#" onclick="openNav()">
+                    <svg width="30" height="30" id="icoOpen"> <!-- Crée une zone d'image svg -->
+                        <!-- Dessine l'image svg en disant à l'ordinateur quels pixels colorer dans la zone -->
+                        <path d="M0,5 30,5" stroke="#090302" stroke-width="5"/>
+                        <path d="M0,14 30,14" stroke="#090302" stroke-width="5"/>
+                        <path d="M0,23 30,23" stroke="#090302" stroke-width="5"/>
+                    </svg>
+                </a>
+            </nav>
+
+            <p id="Nom">Anthony Garry</p>
+        </div>
+
+        <div id="grid-two">
+            <!-- Faire deuxième page pour ne pas charger 2 pages pour rien -->
+            <a id="Langue" style="text-decoration: none; color: #090302; padding-right: 10px;" href="../Français/HyperTextMarkupLanguage.html">Passer au Français</a>
+        </div>
+    </div>
+    <!-- Contenu du menu latéral -->
+    <div id="sideNavigation" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
+        <div class="Profile">
+            <p class="Titre"><a>Anthony GARRY</a></p>
+            <div id="ContactDiv"> <!-- Du plus au moins directe -->
+                <a class="Contact" href="Me contacter - Téléphone"><box-icon type="solid" name="phone"></box-icon></a>
+                <a class="Contact" href="mailto:anthonygarrypro@laposte.net"><box-icon type="solid" name="envelope"></box-icon></a>
+                <a class="Contact" href="https://github.com/AnthonyGarry"><box-icon type="logo" name="github"></box-icon></a>
+                <a class="Contact" href=""><box-icon type="logo" name="linkedin"></box-icon></a> <!-- linkedin et github n'existe que sous forme de logo -->
+            </div>
+        </div>
+        <nav>
+            <a href="#Accueil">Reception</a> <!-- #Accueil va chercher un id="Accueil" dans le code et y aller -->
+            <a href="#APropos">About me</a>
+            <a href="#Compétences">Skills</a>
+            <a href="#Parcours">Career</a>
+            <a href="#MeContacter">Contact me</a>
+        </nav>
+    </div>
+
+    <div id="main">
+        <!-- Add all your websites page content here -->
+         <div id="Accueil">
+            <div class="Contenu">
+                <p class="Titre">Welcome,</p>
+                <p class="Sous-Titre">To my portfolio</p>
+            </div>
+         </div>
+         <hr>
+
+         <div id="APropos">
+            <div class="Contenu">
+
+            </div>
+         </div>
+         <hr>
+
+         <div id="Compétences">
+            <div class="Contenu">
+                
+            </div>
+         </div>
+         <hr>
+
+         <div id="Parcours">
+            <div class="Contenu">
+                
+            </div>
+         </div>
+         <hr>
+
+         <div id="MeContacter">
+            <div class="Contenu">
+                
+            </div>
+         </div>
+    </div>
+</body>
+</html>
