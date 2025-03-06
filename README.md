@@ -1,6 +1,4 @@
-TODO :
-
-MAKE IT LOOK LIKE A TERMINAL SO WE AVOID MORALLY DUBIOUS IMAGES
+--TODO--
 
 Faire un bouton pour le mode couleur Normal/Inversé ?
 
@@ -10,6 +8,9 @@ Ajouter une transition pour laisser le temps aux images de charger
 
 
 
+--DONE--
+
+MAKE IT LOOK LIKE A TERMINAL SO WE AVOID MORALLY DUBIOUS IMAGES https://onezeronull.com/2014/10/10/make-a-webpage-looking-like-terminal-or-command-line/ 
 
 
 
@@ -18,8 +19,7 @@ Ajouter une transition pour laisser le temps aux images de charger
 
 
 
-
---OLD--
+--ABANDONNED--
 
 Chercher ou créer images libre de droit pour FTL ou Stargate pour l'accueil
 AI art ? https://www.piclumen.com/tutorial/are-ai-generated-images-copyrighted/

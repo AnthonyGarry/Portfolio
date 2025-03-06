@@ -1,3 +1,10 @@
+setInterval(function()
+{
+    var display = document.getElementById('cursor').style.display;
+
+    document.getElementById('cursor').style.display = (display == 'inline') ? 'none' : 'inline';
+}, 500);
+
 function openNav() { // Ouvre le menu de navigation latéral //
     document.getElementById("sideNavigation").style.width = "250px";
     document.getElementById("main").style.marginLeft = "250px";
