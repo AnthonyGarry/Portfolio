@@ -10,7 +10,7 @@ Ajouter une transition pour laisser le temps aux images de charger
 
 --DONE--
 
-MAKE IT LOOK LIKE A TERMINAL SO WE AVOID MORALLY DUBIOUS IMAGES https://onezeronull.com/2014/10/10/make-a-webpage-looking-like-terminal-or-command-line/ 
+Make it look like a terminal to avoid morally dubious AI images https://onezeronull.com/2014/10/10/make-a-webpage-looking-like-terminal-or-command-line/ 
 
 
 
