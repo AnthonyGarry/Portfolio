@@ -235,3 +235,13 @@ hr {
 #Autres {
     height: 83vh;   
 }
+
+@media only screen and (max-width: 600px) {
+    #me {
+        height: 33.410852713178295vh;
+        width: 66.66666666666667vw;
+        margin-right: -15vw;
+        margin-top: 35%;
+        float: right;
+    }
+}
