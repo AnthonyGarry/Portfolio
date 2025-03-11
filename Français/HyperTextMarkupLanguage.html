@@ -1,14 +1,13 @@
 <!--
 2024-09-16 12:17:30 GMT+1
 Écrit par : Anthony Garry
-Utilisera : Github Pages
 -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anthony Garry Portfolio</title>
+    <title>Anthony Garry</title>
     <link rel="stylesheet" href="CascadingStyleSheet.css">
     <script src="Javascript.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
@@ -34,7 +33,7 @@ Utilisera : Github Pages
                 </a>
             </nav>
 
-            <p id="Nom" class="hidden-mobile" style="color: #090302;">Anthony Garry</p>
+            <p id="Nom" class="hidden-mobile" style="color: #090302;">Anthony Garry<br>BTS SIO SISR - IIA</p>
         </div>
 
         <div id="grid-two">
@@ -54,10 +53,24 @@ Utilisera : Github Pages
         <div class="Profile">
             <p class="Titre"><a>Anthony GARRY</a></p>
             <div id="ContactDiv"> <!-- Du plus au moins directe -->
-                <a class="Contact" href=""><box-icon type="solid" name="phone"></box-icon></a> <!-- https://www.w3schools.com/howto/howto_css_tooltip.asp ? -->
-                <a class="Contact" href="mailto:anthonygarrypro@laposte.net"><box-icon type="solid" name="envelope"></box-icon></a>
+                <a class="Contact" href="mailto:anthonygarrypro@laposte.net">
+                    <span class="havetooltip">
+                        <span class="tooltip-h">
+                            <span class="tooltip">anthonygarrypro@laposte.net</span>
+                        </span>
+                        <box-icon type="solid" name="envelope"></box-icon>
+                    </span>
+                </a>
+                <a class="Contact" href="">
+                    <span class="havetooltip">
+                        <span class="tooltip-h">
+                            <span class="tooltip">+33 06 36 49 66 03</span>
+                        </span>
+                        <box-icon type="solid" name="phone"></box-icon>
+                    </span>
+                </a> <!-- https://www.w3schools.com/howto/howto_css_tooltip.asp ? -->
                 <a class="Contact" href="https://github.com/AnthonyGarry"><box-icon type="logo" name="github"></box-icon></a>
-                <a class="Contact" href=""><box-icon type="logo" name="linkedin"></box-icon></a> <!-- linkedin et github n'existe que sous forme de logo -->
+                <a class="Contact" href="https://www.linkedin.com/in/anthony-garry-318a27271/"><box-icon type="logo" name="linkedin"></box-icon></a> <!-- linkedin et github n'existe que sous forme de logo -->
             </div>
         </div>
         <nav>
@@ -65,7 +78,9 @@ Utilisera : Github Pages
             <a href="#APropos">A propos</a>
             <a href="#Compétences">Compétences</a>
             <a href="#Parcours">Parcours</a>
-            <a href="#Autres">Plus</a>
+            <a href="#Projets">Projets</a>
+            <a href="#Halgand">Halgand</a>
+            <a href="#Autres">Autres</a>
         </nav>
     </div>
 
@@ -73,22 +88,33 @@ Utilisera : Github Pages
         <!-- Add all your websites page content here -->
         <p>Nihil OS [Version 0.0.1]</p>
         <br>
-        <p>C:\SiteWeb\System42> cd HyperTextMarkupLanguage.html</p>
+        <p>C:\SiteWeb\System42> cd Français</p>
         <hr>
-         <div id="Accueil">
+         <div class="Partie" id="Accueil">
             <div class="Contenu">
                 <p class="Titre">Bienvenue,</p>
                 <p class="Sous-Titre">Sur mon portfolio</p>
+                <br>
+                <p class="Sous-Titre">Sommaire</p>
+                <p>Accueil</p>
+                <p>A propos</p>
+                <p>Compétences</p>
+                <p>Parcours</p>
+                <p>Projets</p>
+                <p>Halgand</p>
+                <p>Autres</p>
             </div>
          </div>
          <hr>
 
-         <div id="APropos">
+         <div class="Partie" id="APropos">
             <div class="Contenu">
                 <div class="Left">
-                    <p class="Sous-Titre">Je suis..</p>
-                    <p>- Un étudiant de seconde année du <b>BTS SIO</b> (Services Informatiques aux Organisations) <b>SISR</b> (Solutions d'Infrastructure, Systèmes et Réseaux) de l'Institut d'Informatique Appliqué de Saint-Nazaire.</p>
-                    <p>- Un homme curieux et perfectionniste avide de lectures fantastiques et de jeux de rôles.</p>
+                    <p class="Titre">Je suis..</p>
+                    <p>- Un homme curieux et perfectionniste appréciant les lectures fantastiques et le jeux de rôle.</p>
+                    <p>- Un français de 20 ans d'âge visant actuellement le master en cybersécurité de l'Institut d'Informatique Appliqué</p>
+                    <p>- Un étudiant en seconde année du <b>BTS SIO</b> <b>SISR</b> de l'IIA de Saint-Nazaire.</p>
+                    <p>- En recherche d'une alternance en entreprise pour la licence de cybersécurité de l'IIA de Nantes.</p>
                 </div>
                 <div class="Right">
                     <img id="me" src="..\Shared\me.png">
@@ -97,53 +123,97 @@ Utilisera : Github Pages
          </div>
          <hr>
 
-         <div id="Compétences">
+         <div class="Partie" id="Compétences">
             <div class="Contenu">
-                <p style="color:white;">Compétences</p>
+                <p style="color:white;" class="Titre">Compétences & Certifications</p>
                 <dl>
-                    <dt><b>Langues Étrangères</b></dt>
+                    <dt><b class="Sous-Titre">Langues Étrangères</b></dt>
                     <dd>&#11157; Anglais - <a href="https://cert.efset.org/fr/9nE2QF">niveau C2</a> (<a href="https://www.efset.org/">EFSET</a>) | 2025</dd>
-                    <!--<dd>&#11157; Espagnol - <a href="TBD">niveau ??</a> (<a href="TBD">????</a>) | YYYY</dd>-->
                 </dl>
                 <br>
                 <dl>
-                    <dt><b>Langages de programmation connus</b></dt>
+                    <dt><b class="Sous-Titre">Langages de programmation connus</b></dt>
                     <dd>&#9632; HTML</dd>
                     <dd>&#9632; CSS</dd>
                     <dd>&#9632; JavaScript</dd>
                     <dd>&#9632; Python</dd>
                 </dl>
-
+                <br>
+                <dl>
+                    <dt><b class="Sous-Titre">Divers</b></dt>
+                    <dd>MOOC du CNIL - 2/5 modules passés</dd>
+                    <dd>Karaté - Ceinture jaune</dd>
+                </dl>
             </div>
          </div>
          <hr>
 
-         <div id="Parcours">
+         <div class="Partie" id="Parcours">
             <div class="Contenu">
+                <p class="Titre">Parcours</p>
                 <dl>
                     <dt>&#8226; 2023-2025 --- CFA - <a href="https://www.google.com/maps/place/Institut+Informatique+Appliqu%C3%A9e/@47.2521533,-2.2584628,17z/data=!3m1!4b1!4m6!3m5!1s0x480569c5a72c1deb:0x302b9939a5844a9d!8m2!3d47.2521533!4d-2.2584628!16s%2Fg%2F11pvwtky3p?entry=ttu&g_ep=EgoyMDI1MDMwMy4wIKXMDSoASAFQAw%3D%3D">Institut d'Informatique Appliqué</a></dt>
                     <dd>BTS SIO SISR | En cours d'étude</dd>
                     <dd><b>&#9670; En cours d'étude</b></dd>
+                    <dd>&#8212; Alternance chez <a href="https://www.groupe-halgand.com/halgand/">Halgand</a> à <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x48056fd7b79b605d:0xc7f4e332a179798e?sa=X&ved=1t:8290&ictx=111">Saint-Brévin-les-Pins</a> | 2023-2025</dd>
                     <br>
                     <dt>&#8226; 2020-2023 --- Lycée - <a href="https://www.google.com/maps/place/Lyc%C3%A9e+Pays+de+Retz/@47.4919661,-2.1427784,8.46z/data=!4m6!3m5!1s0x4805732eab803e1d:0xed69dbf3e900062f!8m2!3d47.1208748!4d-2.0867013!16s%2Fg%2F1q62cgmgr?entry=ttu&g_ep=EgoyMDI1MDMwMy4wIKXMDSoASAFQAw%3D%3D">Lycée du Pays de Retz</a></dt>
-                    <dd>Baccalauréat de Français | 2023</dd>
+                    <dd>Baccalauréat Général | 2023</dd>
                     <dd><b>&#9670; Obtenu avec mention « Assez Bien »</b></dd>
-                    <dd>&#8212; Spécialité 1 : Numérique Sciences de l'Informatique</dd>
-                    <dd>&#8212; Spécialité 2 : Mathématiques</dd>
-                    <dd>&#8212; Spécialité de Première : Physique-Chimie</dd>
+                    <dd>&#8212; Spécialité 1 : Numérique Sciences de l'Informatique | 2021-2023</dd>
+                    <dd>&#8212; Spécialité 2 : Mathématiques | 2021-2023</dd>
+                    <dd>&#8212; Spécialité de Première : Physique-Chimie | 2021-2022</dd>
                     <br>
                     <dt>&#8226; 2016-2020 --- Collège - <a href="https://www.google.com/maps/place/%C3%89cole+SAINT+JOSEPH/@47.2319604,-2.151933,17.75z/data=!4m6!3m5!1s0x48056e2a908f9b79:0xcc1adfc8f53f73f5!8m2!3d47.231512!4d-2.151455!16s%2Fg%2F11c5wnffp2?entry=ttu&g_ep=EgoyMDI1MDMwMy4wIKXMDSoASAFQAw%3D%3D">Collège de Saint-Joseph</a></dt> <!-- &#8226; = • -->
                     <dd>Brevet des Collèges | 2020</dd>
-                    <dd><b>&#9670; Mention « Bien »</b></dd>
+                    <dd><b>&#9670; Obtenu avec mention « Bien »</b></dd>
                     <dd>&#8212; Stage de Troisième : <a href="https://www.ibm.com/fr-fr">IBM</a> <a href="https://www.google.com/maps/place/IBM/@47.2795099,-2.3619351,11.46z/data=!4m6!3m5!1s0x48056812862ba5c9:0x6ce6c160a4453486!8m2!3d47.2585999!4d-2.3021186!16s%2Fg%2F1tfvglcl?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D">France</a> | 2020</dd>
                 </dl>
             </div>
          </div>
          <hr>
 
-         <div id="Autres">
+         <div class="Partie" id="Projets">
             <div class="Contenu">
-                <!--<p style="color:white;">Trucs de codes fait pour github maybe ? Do we want to link Work & Chill ? Probably not but could be helpfull</p>-->
+                <p class="Titre">Projets</p>
+                <div class="Left">
+                    <p class="Sous-Titre">GLPI & GLPI Inventory via GPO</p>
+                    <p>Contexte</p>
+                    <p>Durée et calendrier</p>
+                    <p>Technologies utilisées</p>
+                    <p>Détails des tâches effectuées</p>
+                    <p>Résultats obtenus</p>
+                    <p>Documents techniques</p>
+                </div>
+                <div class="Right">
+                    <p class="Sous-Titre">Serveur FTPS</p>
+                    <p>Contexte</p>
+                    <p>Durée et calendrier</p>
+                    <p>Technologies utilisées</p>
+                    <p>Détails des tâches effectuées</p>
+                    <p>Résultats obtenus</p>
+                    <p>Documents techniques</p>
+                </div>
+            </div>
+         </div>
+         <hr>
+
+         <div class="Partie" id="Halgand">
+            <div class="Contenu">
+                <p class="Titre">Halgand</p>
+                <p>Présentation de l'entreprise</p>
+                <p>Objectifs de l'alternance (Aider le RSSI (Trop de travail pour une personne))</p>
+                <p>Compétences développés</p>
+                <p>Tâches principales effectuées</p>
+                <p>Qu'est-ce que j'ai appris pendant l'alternance</p>
+            </div>
+         </div>
+         <hr>
+
+         <div class="Partie" id="Autres">
+            <div class="Contenu">
+                <p><a href="CV.pdf">Curriculum Vitae</a></p>
+                <p><a href="TableauCompétencesBTS.pdf">Tableau récapitulatif des compétences du BTS SIO SISR</a></p>
                 <p>C:\Utilisateurs\Visiteur><span id="cursor">█</p>
             </div>
          </div>

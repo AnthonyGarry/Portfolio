@@ -127,6 +127,38 @@ body {
     margin-bottom: 10px;
 }
 
+/* <span class="havetooltip">
+   <span class="tooltip-h"><span class="tooltip">This is tooltip content</span></span>  
+   This is some paragraph text, try to hover over with mouse
+</span> */
+
+/* How the tooltip should look like and where it should be located https://stackoverflow.com/questions/71258930/how-to-make-element-appear-on-hover-text */
+.tooltip{
+    display: none;
+    position: absolute;
+    z-index: 50;
+    background-color: #222222;
+    white-space: nowrap;
+    padding: 3px 7px;
+    top: -2em;
+    color: #FFFFFF;
+    border-radius: 4px 4px 4px 4px;
+    border: solid 1px #820B8A;
+    font-size: 15px;
+}
+/* We enable displaying of tooltip when content is hovered
+   please mind, this may be tricky to do on mobile devices */
+.havetooltip:hover .tooltip{
+    display: block;
+}
+/* Holder of tooltip, have zero-size but it's contents are allowed to overflow */
+.tooltip-h{
+    position: relative;
+    width: 0;
+    height: 0;
+    overflow: visible;
+}
+
 .topnav {
     width: 65px;
 }
@@ -180,7 +212,7 @@ a svg{
     width: 100%; /* Changer par JS navbar pour que le texte wrap */
 }
 
-#Accueil {
+.Partie {
     height: 83vh;
 }
 
@@ -197,11 +229,6 @@ a svg{
 
 hr {
     color: #090302;
-}
-
-#APropos {
-    height: 83vh;
-
 }
 
 .Left {
@@ -222,18 +249,6 @@ hr {
     margin-right: 5.859375vw;
     margin-top: 4.47227191413238vh;
     float: right;
-}
-
-#Compétences {
-    height: 83vh;
-}
-
-#Parcours {
-    height: 83vh;
-}
-
-#Autres {
-    height: 83vh;   
 }
 
 @media only screen and (max-width: 600px) {

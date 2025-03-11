@@ -1,14 +1,13 @@
 <!--
 2024-09-16 12:17:30 GMT+1
 Écrit par : Anthony Garry
-Utilisera : Github Pages
 -->
 <!DOCTYPE html>
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Anthony Garry Portfolio</title>
+    <title>Anthony Garry</title>
     <link rel="stylesheet" href="CascadingStyleSheet.css">
     <script src="Javascript.js"></script>
     <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
@@ -34,24 +33,44 @@ Utilisera : Github Pages
                 </a>
             </nav>
 
-            <p id="Nom" class="hidden-mobile">Anthony Garry</p>
+            <p id="Nom" class="hidden-mobile" style="color: #090302;">Anthony Garry<br>BTS SIO SISR - IIA</p>
         </div>
 
         <div id="grid-two">
+            <!-- Script temps -->
+             <p id="datetime" style="color: #090302;"></p>
+        </div>
+
+        <div id="grid-three">
             <!-- Faire deuxième page pour ne pas charger 2 pages pour rien -->
             <a id="Langue" style="text-decoration: none; color: #090302; padding-right: 10px;" href="../Français/HyperTextMarkupLanguage.html">Passer au Français</a>
         </div>
     </div>
+
     <!-- Contenu du menu latéral -->
     <div id="sideNavigation" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a> 
         <div class="Profile">
             <p class="Titre"><a>Anthony GARRY</a></p>
             <div id="ContactDiv"> <!-- Du plus au moins directe -->
-                <a class="Contact" href="Me contacter - Téléphone"><box-icon type="solid" name="phone"></box-icon></a>
-                <a class="Contact" href="mailto:anthonygarrypro@laposte.net"><box-icon type="solid" name="envelope"></box-icon></a>
+                <a class="Contact" href="mailto:anthonygarrypro@laposte.net">
+                    <span class="havetooltip">
+                        <span class="tooltip-h">
+                            <span class="tooltip">anthonygarrypro@laposte.net</span>
+                        </span>
+                        <box-icon type="solid" name="envelope"></box-icon>
+                    </span>
+                </a>
+                <a class="Contact" href="">
+                    <span class="havetooltip">
+                        <span class="tooltip-h">
+                            <span class="tooltip">+33 06 36 49 66 03</span>
+                        </span>
+                        <box-icon type="solid" name="phone"></box-icon>
+                    </span>
+                </a> <!-- https://www.w3schools.com/howto/howto_css_tooltip.asp ? -->
                 <a class="Contact" href="https://github.com/AnthonyGarry"><box-icon type="logo" name="github"></box-icon></a>
-                <a class="Contact" href=""><box-icon type="logo" name="linkedin"></box-icon></a> <!-- linkedin et github n'existe que sous forme de logo -->
+                <a class="Contact" href="https://www.linkedin.com/in/anthony-garry-318a27271/"><box-icon type="logo" name="linkedin"></box-icon></a> <!-- linkedin et github n'existe que sous forme de logo -->
             </div>
         </div>
         <nav>
@@ -59,44 +78,147 @@ Utilisera : Github Pages
             <a href="#APropos">About me</a>
             <a href="#Compétences">Skills</a>
             <a href="#Parcours">Career</a>
-            <a href="#Autres">More</a>
+            <a href="#Projets">Projects</a>
+            <a href="#Halgand">Halgand</a>
+            <a href="#Autres">Others</a>
         </nav>
     </div>
 
     <div id="main">
         <!-- Add all your websites page content here -->
-         <div id="Accueil">
+        <p>Nihil OS [Version 0.0.1]</p>
+        <br>
+        <p>C:\Website\System42> cd English</p>
+        <hr>
+         <div class="Partie" id="Accueil">
             <div class="Contenu">
                 <p class="Titre">Welcome,</p>
                 <p class="Sous-Titre">To my portfolio</p>
+                <br>
+                <p class="Sous-Titre">Summary</p>
+                <p>Reception</p>
+                <p>About me</p>
+                <p>Skills</p>
+                <p>Career</p>
+                <p>Projects</p>
+                <p>Halgand</p>
+                <p>Others</p>
             </div>
          </div>
          <hr>
 
-         <div id="APropos">
+         <div class="Partie" id="APropos">
             <div class="Contenu">
-
+                <div class="Left">
+                    <p class="Titre">I am..</p>
+                    <p>- A curious and perfectionnist man appreciating fantasy readings and roleplay.</p>
+                    <p>- A 20 years old french aiming to complete the Institut d'Informatique Appliqué's (Institute of Applied Computer Science) master in cybersecurity</p>
+                    <p>- A second year <b>BTS SIO</b> <b>SISR</b> student at Saint-Nazaire's IIA.</p>
+                    <p>- Looking for a company apprenticeship for the IIA's licence in cybersecurity.</p>
+                </div>
+                <div class="Right">
+                    <img id="me" src="..\Shared\me.png">
+                </div>
             </div>
          </div>
          <hr>
 
-         <div id="Compétences">
+         <div class="Partie" id="Compétences">
             <div class="Contenu">
-                
+                <p style="color:white;" class="Titre">Skills & Certifications</p>
+                <dl>
+                    <dt><b class="Sous-Titre">Foreign Languages</b></dt>
+                    <dd>&#11157; English - <a href="https://cert.efset.org/fr/9nE2QF">C2 level</a> (<a href="https://www.efset.org/">EFSET</a>) | 2025</dd>
+                    <dd>&#11157; French - Native Language</dd>
+                </dl>
+                <br>
+                <dl>
+                    <dt><b class="Sous-Titre">Known programming languages</b></dt>
+                    <dd>&#9632; HTML</dd>
+                    <dd>&#9632; CSS</dd>
+                    <dd>&#9632; JavaScript</dd>
+                    <dd>&#9632; Python</dd>
+                </dl>
+                <br>
+                <dl>
+                    <dt><b class="Sous-Titre">Miscellaneous</b></dt>
+                    <dd>CNIL's MOOC - 2/5 passed modules</dd>
+                    <dd>Karate - Yellow belt</dd>
+                </dl>
             </div>
          </div>
          <hr>
 
-         <div id="Parcours">
+         <div class="Partie" id="Parcours">
             <div class="Contenu">
-                
+                <p class="Titre">Career</p>
+                <dl> <!-- ATC = Apprentice Training Center -->
+                    <dt>&#8226; 2023-2025 --- ATC - <a href="https://www.google.com/maps/place/Institut+Informatique+Appliqu%C3%A9e/@47.2521533,-2.2584628,17z/data=!3m1!4b1!4m6!3m5!1s0x480569c5a72c1deb:0x302b9939a5844a9d!8m2!3d47.2521533!4d-2.2584628!16s%2Fg%2F11pvwtky3p?entry=ttu&g_ep=EgoyMDI1MDMwMy4wIKXMDSoASAFQAw%3D%3D">Institut d'Informatique Appliqué (Institute of Applied Computer Science)</a></dt>
+                    <dd>BTS SIO SISR | Under study</dd>
+                    <dd><b>&#9670; Under study</b></dd>
+                    <dd>&#8212; Apprenticeship at <a href="https://www.groupe-halgand.com/halgand/">Halgand</a> in <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0x48056fd7b79b605d:0xc7f4e332a179798e?sa=X&ved=1t:8290&ictx=111">Saint-Brévin-les-Pins</a> | 2023-2025</dd>
+                    <br>
+                    <dt>&#8226; 2020-2023 --- High school - <a href="https://www.google.com/maps/place/Lyc%C3%A9e+Pays+de+Retz/@47.4919661,-2.1427784,8.46z/data=!4m6!3m5!1s0x4805732eab803e1d:0xed69dbf3e900062f!8m2!3d47.1208748!4d-2.0867013!16s%2Fg%2F1q62cgmgr?entry=ttu&g_ep=EgoyMDI1MDMwMy4wIKXMDSoASAFQAw%3D%3D">Lycée du Pays de Retz (Pays de Retz's high school)</a></dt>
+                    <dd>General Baccalaureate | 2023</dd>
+                    <dd><b>&#9670; Obtained with « Quite Good » rating</b></dd>
+                    <dd>&#8212; Speciality 1 : Digital Computer Science | 2021-2023</dd>
+                    <dd>&#8212; Speciality 2 : Mathematics | 2021-2023</dd>
+                    <!-- English counts their years up instead of down, something we should all aspire to IMO (would make it much easier and remove need of "maternelle" et "petite section")
+                     So Year 12 is the 12th year = Première in France -->
+                    <dd>&#8212; Year 12 Speciality : Physics & Chemistry | 2021-2022</dd>
+                    <br>
+                    <dt>&#8226; 2016-2020 --- Middle School - <a href="https://www.google.com/maps/place/%C3%89cole+SAINT+JOSEPH/@47.2319604,-2.151933,17.75z/data=!4m6!3m5!1s0x48056e2a908f9b79:0xcc1adfc8f53f73f5!8m2!3d47.231512!4d-2.151455!16s%2Fg%2F11c5wnffp2?entry=ttu&g_ep=EgoyMDI1MDMwMy4wIKXMDSoASAFQAw%3D%3D">Collège de Saint-Joseph (Saint Joseph's Middle School)</a></dt> <!-- &#8226; = • -->
+                    <dd>Middle School Diploma | 2020</dd>
+                    <dd><b>&#9670; Obtained with « Good » rating</b></dd>
+                    <dd>&#8212; Year 10 internship : <a href="https://www.ibm.com/fr-fr">IBM</a> <a href="https://www.google.com/maps/place/IBM/@47.2795099,-2.3619351,11.46z/data=!4m6!3m5!1s0x48056812862ba5c9:0x6ce6c160a4453486!8m2!3d47.2585999!4d-2.3021186!16s%2Fg%2F1tfvglcl?entry=ttu&g_ep=EgoyMDI1MDMwNC4wIKXMDSoASAFQAw%3D%3D">France</a> | 2020</dd>
+                </dl>
             </div>
          </div>
          <hr>
 
-         <div id="Autres">
+         <div class="Partie" id="Projets">
             <div class="Contenu">
-                
+                <p class="Titre">Projets</p>
+                <div class="Left">
+                    <p class="Sous-Titre">GLPI & GLPI Inventory through GPO</p>
+                    <p>Context</p>
+                    <p>Duration and calendar</p>
+                    <p>Used technologies</p>
+                    <p>Details of tasks performed</p>
+                    <p>Obtained results</p>
+                    <p>Technical documents</p>
+                </div>
+                <div class="Right">
+                    <p class="Sous-Titre">Serveur FTPS</p>
+                    <p>Context</p>
+                    <p>Duration and calendar</p>
+                    <p>Used technologies</p>
+                    <p>Details of tasks performed</p>
+                    <p>Obtained results</p>
+                    <p>Technical documents</p>
+                </div>
+            </div>
+         </div>
+         <hr>
+
+         <div class="Partie" id="Halgand">
+            <div class="Contenu">
+                <p class="Titre">Halgand</p>
+                <p>Company presentation</p>
+                <!-- CISO = Chief Information Security Officer -->
+                <p>Apprenticeship's objective (Assist CISO (Too much work for one person))</p>
+                <p>Developped skills</p>
+                <p>Main performed tasks</p>
+                <p>What did I learn during the apprenticeship</p>
+            </div>
+         </div>
+         <hr>
+
+         <div class="Partie" id="Autres">
+            <div class="Contenu">
+                <p><a href="CV.pdf">Curriculum Vitae</a></p>
+                <p><a href="TableauCompétencesBTS.pdf">BTS SIO SISR skills summary table</a></p>
+                <p>C:\Users\Visitor><span id="cursor">█</p>
             </div>
          </div>
     </div>
