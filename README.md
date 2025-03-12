@@ -1,10 +1,6 @@
 --TODO--
 
-Faire un bouton pour le mode couleur Normal/Inversé ?
-
-Trouver comment faire texte qui bouge pour accueil, probablement animation ?
-
-Ajouter une transition pour laisser le temps aux images de charger
+Trouver comment faire texte qui bouge pour accueil, probablement animation ? Pour toutes les commandes ?
 
 
 
@@ -24,3 +20,7 @@ Make it look like a terminal to avoid morally dubious AI images https://onezeron
 Chercher ou créer images libre de droit pour FTL ou Stargate pour l'accueil
 AI art ? https://www.piclumen.com/tutorial/are-ai-generated-images-copyrighted/
 Ajouter une transition à la FTL pour laisser le temps aux images de charger
+
+Faire un bouton pour le mode couleur Normal/Inversé ? - Bad idea, flashbang and epilepsy warnings be upon thee
+
+Ajouter une transition pour laisser le temps aux images de charger - What images ? We have one and it's all we need
