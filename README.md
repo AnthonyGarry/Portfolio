@@ -2,6 +2,9 @@
 
 Trouver comment faire texte qui bouge pour accueil, probablement animation ? Pour toutes les commandes ?
 
+Fix word-wrap
+
+Fix Halgand Image on Phone
 
 
 --DONE--
