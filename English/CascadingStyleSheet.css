@@ -213,7 +213,7 @@ a svg{
 }
 
 .Partie {
-    height: 83vh;
+    height: 100vh;
 }
 
 .Contenu {
@@ -247,7 +247,7 @@ hr {
     height: 77.99642218246869vh;
     width: 38.046875vw;
     margin-right: 5.859375vw;
-    margin-top: 4.47227191413238vh;
+    margin-top: 5vh;
     float: right;
 }
 

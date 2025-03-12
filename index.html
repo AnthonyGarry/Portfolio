@@ -6,17 +6,20 @@
 </head>
 <body> <!--Le script ci-dessous redirige vers le dossier contenant le site, à utiliser dans le cadre de github pages-->
   <script> 
-    function redirect(){
+    function redirect(){ // Vérifie les paramètres de langues préférée du navigateur et renvoie selon ces derniers //
       var userLang = navigator.language || navigator.userLanguage;
     var urls = {
       'fr': 'https://anthonygarry.github.io/Portfolio/Fran%C3%A7ais/HyperTextMarkupLanguage.html',
+      // 'fr': 'http://127.0.0.1:5500/Fran%C3%A7ais/HyperTextMarkupLanguage.html', //
     };
     var defaultUrl = 'https://anthonygarry.github.io/Portfolio/English/HyperTextMarkupLanguage.html';
+    // var defaultURL = 'http://127.0.0.1:5500/English/HyperTextMarkupLanguage.html'; //
 
     var url = urls[userLang] ?? defaultUrl;
     window.location.replace(url);
     }
     window.onload = redirect();
   </script>
+  <p style="color: red">You should not see this. Vous ne devriez pas voir ça.</p>
 </body>
 </html>
