@@ -233,7 +233,7 @@ hr {
 }
 
 .Left {
-    width: 50%;
+    width: 50%; /* 40vw; ? */
     height: 100%;
     float: left;
 }
