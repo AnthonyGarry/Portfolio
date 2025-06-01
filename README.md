@@ -2,7 +2,7 @@
 
 Trouver comment faire texte qui bouge pour accueil, probablement animation ? Pour toutes les commandes ?
 
->>>>>>>>>>>Fix word-wrap<<<<<<<<<<<
+Since when does the page jump back up on navbar opening and why ?
 
 Fix Halgand Image on Phone
 
