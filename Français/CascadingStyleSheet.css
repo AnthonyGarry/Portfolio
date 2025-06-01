@@ -2,6 +2,14 @@
 
 /* Icones ? https://boxicons.com/usage */
 
+/*
+VW stands for “viewport width”, which is the viewable screen's width.
+100VW would represent 100% of the viewport's width, or the full width of the screen.
+% reflects a percentage of the parent element's size, regardless of the viewport's size. 
+
+https://elementor.com/help/whats-the-difference-between-px-em-rem-vw-and-vh/
+*/
+
 html {
     background-color: lightgray;
     font-family: "Alice", serif;
@@ -11,7 +19,6 @@ html {
 
 body {
     overflow-x: hidden;
-    overflow-wrap: break-word;
     width: 100%;
     height: 100%;
     margin: 0px;
@@ -242,10 +249,27 @@ hr {
     float: left;
 }
 
+.Word_Wrap_Left {
+    width: 50%;
+    height: 100%;
+    float: left;
+    text-wrap: balance;
+    word-break: break-word;
+}
+
 .Right {
     width: 50%;
     height: 100%;
     float: right;
+}
+
+.Word_Wrap_Right {
+    width: 45%;
+    height: 100%;
+    float: right;
+    text-wrap: balance;
+    word-break: break-word;
+    margin-right: 5%;
 }
 
 #me {
