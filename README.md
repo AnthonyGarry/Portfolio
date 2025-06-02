@@ -1,16 +1,10 @@
 --TODO--
 
-WORDBREAK IS maybe back (It certainly broke in a weird way on Edge. But I lost most hope in Microsoft
-a few years ago so I am sadly not very surprised.)
+Finish translation of English side
 
-Trouver comment faire texte qui bouge pour accueil, probablement animation ? Pour toutes les commandes ?
+Since when does the page jump back up on navbar opening and why ? -- Don't really care
 
-Since when does the page jump back up on navbar opening and why ?
-
-Fix Halgand Image on Phone
-
-Continuity breach - Hidden link in the Website/SiteWeb
-
+Fix Halgand Image on Phone -- To be checked
 
 --DONE--
 
@@ -32,3 +26,7 @@ Ajouter une transition à la FTL pour laisser le temps aux images de charger
 Faire un bouton pour le mode couleur Normal/Inversé ? - Bad idea, flashbang and epilepsy warnings be upon thee
 
 Ajouter une transition pour laisser le temps aux images de charger - What images ? We have one and it's all we need
+
+Trouver comment faire texte qui bouge pour accueil, probablement animation ? Pour toutes les commandes ?
+
+Continuity breach - Hidden link in the Website/SiteWeb -- Sadly forgot what I meant by that but it wasn't important or I would have detailed it.
