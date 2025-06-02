@@ -1,6 +1,7 @@
 --TODO--
 
-WORDBREAK IS DUCKING GONE AGAIN
+WORDBREAK IS maybe back (It certainly broke in a weird way on Edge. But I lost most hope in Microsoft
+a few years ago so I am sadly not very surprised.)
 
 Trouver comment faire texte qui bouge pour accueil, probablement animation ? Pour toutes les commandes ?
 
