@@ -1,10 +1,8 @@
 --TODO--
 
-Finish translation of English side
-
 Since when does the page jump back up on navbar opening and why ? -- Don't really care
 
-Fix Halgand Image on Phone -- To be checked
+Fix Halgand Image on Phone -- In progress
 
 --DONE--
 
