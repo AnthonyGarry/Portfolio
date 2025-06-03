@@ -232,6 +232,12 @@ a svg{
     height: 100vh;
 }
 
+@media only screen and (max-width: 750px) {
+    .tall-mobile {
+      height: 200vh;
+    }
+}
+
 .Contenu {
     margin-left: 5%;
     width: 100%;
@@ -259,6 +265,13 @@ hr {
     float: left;
     text-wrap: balance;
     word-break: break-word;
+}
+
+@media only screen and (max-width: 750px) {
+    .shown-mobile {
+      float: center;
+      width: 100%;
+    }
 }
 
 .Right {
