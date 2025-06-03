@@ -1,8 +1,6 @@
 --TODO--
 
-Since when does the page jump back up on navbar opening and why ? -- Don't really care
-
-Fix Halgand Image on Phone -- In progress
+Documents
 
 --DONE--
 
@@ -28,3 +26,5 @@ Ajouter une transition pour laisser le temps aux images de charger - What images
 Trouver comment faire texte qui bouge pour accueil, probablement animation ? Pour toutes les commandes ?
 
 Continuity breach - Hidden link in the Website/SiteWeb -- Sadly forgot what I meant by that but it wasn't important or I would have detailed it.
+
+Phone support (We can squish Mozilla Firefox together to check without commiting and without some unknown VSCode extension, that's something to remember.)
